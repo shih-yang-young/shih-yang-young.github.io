@@ -17,10 +17,40 @@
             </div>
             <div class="personal-content-right">
                 <b>基本資料</b>
-                <p>生日: 1999-12-18</p>
-                <p>手機: 0963535138</p>
-                <p>信箱: yicheng.881218@gmail.com</p>
+                <p>生日: 1998-11-18</p>
+                <p>手機: 0975248945</p>
+                <p>信箱: louischen2021uchi@gmail.com</p>
             </div>
+        </div>
+    </div>
+    <div class="content">
+        <h3>經歷 Experience</h3>
+        <div>
+        </div>
+        <div class="v-line">
+            <p>軟體工程師</p>
+            <p>鈦坦科技 Jul 2021 - Sep 2023</p>
+            依據客戶的需求,開發並維護高效能、高安全性、使用者易用的網站應用程式。
+            <ul>
+                <li>
+                    1、修改使用者網站的操作畫面
+                </li>
+                <li>
+                    2、前端和後端的資料串接
+                </li>
+                <li>
+                    3、設計及實作商業需求
+                </li>
+                <li>
+                    4、功能測試及效能監控
+                </li>
+                <li>
+                    5、資料庫資料的新增、查詢、修改、刪除
+                </li>
+                <li>
+                    6、CI/CD 自動化整合與部署
+                </li>
+            </ul>
         </div>
     </div>
 </body>
@@ -30,12 +60,38 @@
 @import url(//fonts.googleapis.com/earlyaccess/notosanstc.css);
 body,p{
     margin:0;
-    font-family: 'Noto Sans TC',sans-serif;
-    
+    font-family: 'Noto Sans TC',sans-serif; 
 }
+h3 {
+    color: #67776F;
+    font-weight:bold;
+}
+
+.v-line{
+    border-left:  solid #67776F;
+    padding-left: 20px;
+    margin: 0 20px;
+
+}
+
+.v-line::before{
+    position: absolute; /*絕對定位*/
+    content: ""; /*沒有加這段就不會產生偽元素*/
+    width: 10px;
+    height: 10px;
+    background: #67776F;
+    border-radius:50%;
+    transform: translate(-26.7px, 0px);
+}
+
+.content {
+    max-width: 90%;
+    margin: 0 auto;
+}
+
 .personal-info {
     background-color:#DEE9E3;
-    height: 250px;
+    height: 220px;
     margin: 0;
 }
 
