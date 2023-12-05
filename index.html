@@ -6,6 +6,73 @@
     <title>Document</title>
 </head>
 <body>
-    try try see
+    <div class="personal-info">
+        <div class="personal-content">
+            <div class="personal-content-left">
+                <div class="photo">
+                    <img src="photo.jpg">
+                </div>
+                <p>陳詩陽</p>
+                <p>Louis Chen</p>
+            </div>
+            <div class="personal-content-right">
+                <b>基本資料</b>
+                <p>生日: 1999-12-18</p>
+                <p>手機: 0963535138</p>
+                <p>信箱: yicheng.881218@gmail.com</p>
+            </div>
+        </div>
+    </div>
 </body>
 </html>
+
+<style>
+@import url(//fonts.googleapis.com/earlyaccess/notosanstc.css);
+body,p{
+    margin:0;
+    font-family: 'Noto Sans TC',sans-serif;
+    
+}
+.personal-info {
+    background-color:#DEE9E3;
+    height: 250px;
+    margin: 0;
+}
+
+.personal-content {
+    width: 70%;
+    margin: auto;
+    display: flex;
+    padding: 30px;
+}
+
+.personal-content-left{
+    text-align:center;
+}
+
+.personal-content-left p{
+    margin: 8px 0;
+    font-weight:bold;
+}
+
+.personal-content-right {
+    margin: 0 50px;
+}
+.personal-content-right p {
+    margin: 10px 0;
+    font-size: 14px;
+}
+
+.photo{
+    overflow:hidden;
+    border-radius:50%;
+    height: 100px;
+    width: 100px;
+}
+.photo img{
+    width:auto;
+    height:120%;
+    margin-left:-45%;
+    margin-top: -8%;
+}
+</style>
