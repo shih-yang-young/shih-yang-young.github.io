@@ -1,30 +1,58 @@
 # careers section data
 # if you don't have language feature(language.yml is empty), ignore "i18n" items
 - name:
-    detail: Company A
+    detail: National Central University
     i18n: company_a
   desc:
-    detail: I worked at Company A ...
+    detail: Currently studying in the Master's program in Information Management.
     i18n: company_a_desc
   date:
-    detail: Apr. 2016
+    detail: Sep. 2023 - Present
     i18n: company_a_date
   job:
-    detail: CTO
+    detail: Master
     i18n: company_a_job
-  icon: fa-plus-square
+  icon: fa-graduation-cap
   present: true
 
 - name:
-    detail: Company B
+    detail: Titansoft Pte Ltd
     i18n: company_b
   desc:
-    detail: I worked at Company B ...
+    detail: Mainly develop and maintain website applications, using Vue.js on the Frontend and .net Core Web API on the Backend.<br>Develop and maintain high-performance, high-security, user-friendly website applications based on customer needs.<br>1. Modify the operation screen of the user website<br>2. Data concatenation between front-end and back-end<br>3. Design and implement business needs<br>4. Functional testing and performance monitoring<br>5. Add, query, modify and delete database information<br>6. CI/CD automated integration and deployment<br>
     i18n: company_b_desc
   date:
-    detail: Jun. 2015
+    detail: Jul. 2021 - Sep. 2023
     i18n: company_b_date
   job:
     detail: Full Stack Developer
     i18n: company_b_job
-  icon: fa-plus-square
+  icon: fa-gamepad
+
+- name:
+    detail: Titansoft Pte Ltd
+    i18n: company_c
+  desc:
+    detail: Design company internal web pages using .net core MVC and SQL Server
+    i18n: company_c_desc
+  date:
+    detail: Mar. 2021 - Jun. 2021
+    i18n: company_c_date
+  job:
+    detail: Intern
+    i18n: company_c_job
+  icon: fa-gamepad
+
+- name:
+    detail: National Yunlin University of Science and Technology
+    i18n: company_d
+  desc:
+    detail: Graduated from bachelor's degree in information management, familiar with Python and Java development.
+    i18n: company_d_desc
+  date:
+    detail: Sep. 2017 - Jun. 2021
+    i18n: company_d_date
+  job:
+    detail: Student
+    i18n: company_d_job
+  icon: fa-gamepad
