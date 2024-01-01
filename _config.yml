@@ -1,7 +1,7 @@
 # Welcome to Jekyll!
 
 # Website settings
-title: Shih Yang
+title: 詩陽
 description: Shih Yang's Resume,use Jekyll and github pages.
 keywords: Shih Yang,Jalpc,blog,Jekyll,github,gh-pages
 baseurl:   # if you have suburl as homepage like '/homepage', please change it to '/homepage' and your repo's name should be 'homepage'
@@ -12,8 +12,8 @@ img_path: /static/assets/img/blog  # url should be '/homepage/static/assets/img/
 # author -- index page "about me" section
 author:  # change following line to your infomation.
   name: GitHub  # Be used at blog posts' author.
-  first_name: Chen  # Be used at index page about me section.
-  last_name: Shih Yang  # Be used at index page about me section.
+  first_name:  # Be used at index page about me section.
+  last_name: 陳詩陽  # Be used at index page about me section.
   avatar: /static/assets/img/landing/avatar.jpg  # upload your avatar at directory and edit it.
   github_username: shih-yang-young  # Leave blank if you don't have now
   instagram_username: z2233x10  # Leave blank if you don't have now
