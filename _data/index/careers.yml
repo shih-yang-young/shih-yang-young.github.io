@@ -1,58 +1,88 @@
 # careers section data
 # if you don't have language feature(language.yml is empty), ignore "i18n" items
 - name:
-    detail: National Central University
-    i18n: company_a
+    detail: 國立中央大學
+    i18n: National Central University
   desc:
-    detail: Currently studying in the Master's program in Information Management.
-    i18n: company_a_desc
+    detail: 現在就讀資訊管理所
+    i18n: Currently studying in the Master's program in Information Management.
   date:
-    detail: Sep. 2023 - Present
-    i18n: company_a_date
+    detail: 2023年9月 - 現在
+    i18n: Sep. 2023 - Present
   job:
-    detail: Master
-    i18n: company_a_job
+    detail: 碩士
+    i18n: Master
   icon: fa-graduation-cap
   present: true
 
 - name:
-    detail: Titansoft Pte Ltd
-    i18n: company_b
+    detail: 新加坡商鈦坦科技
+    i18n: Titansoft Pte Ltd
   desc:
-    detail: Mainly develop and maintain website applications, using Vue.js on the Frontend and .net Core Web API on the Backend.<br>Develop and maintain high-performance, high-security, user-friendly website applications based on customer needs.<br>1. Modify the operation screen of the user website<br>2. Data concatenation between front-end and back-end<br>3. Design and implement business needs<br>4. Functional testing and performance monitoring<br>5. Add, query, modify and delete database information<br>6. CI/CD automated integration and deployment<br>
-    i18n: company_b_desc
+    detail: > 
+      主要開發和維護網站應用程式，使用 Vue.js 作為前端技術，並使用 .NET Core Web API 作為後端技術。
+      <br>
+      根據客戶需求，開發和維護高效、高安全性、用戶友好的網站應用程式。
+      <br>
+      1. 修改用戶網站的操作畫面。
+      <br>
+      2. 前後端之間的資料串連。
+      <br>
+      3. 設計並實現業務需求。
+      <br>
+      4. 功能測試和性能監控。
+      <br>
+      5. 新增、查詢、修改和刪除資料庫資訊。
+      <br>
+      6. CI/CD 自動化整合和部署。
+    i18n: >
+      Mainly develop and maintain website applications, using Vue.js on the Frontend and .net Core Web API on the Backend.
+      <br>
+      Develop and maintain high-performance, high-security, user-friendly website applications based on customer needs.
+      <br>
+      1. Modify the operation screen of the user website
+      <br>
+      2. Data concatenation between front-end and back-end
+      <br>
+      3. Design and implement business needs
+      <br>
+      4. Functional testing and performance monitoring
+      <br>
+      5. Add, query, modify and delete database information
+      <br>
+      6. CI/CD automated integration and deployment
   date:
-    detail: Jul. 2021 - Sep. 2023
-    i18n: company_b_date
+    detail: 2021年7月 - 2023年9月
+    i18n: Jul. 2021 - Sep. 2023
   job:
-    detail: Full Stack Developer
-    i18n: company_b_job
+    detail: 全端工程師
+    i18n: Full Stack Developer
   icon: fa-gamepad
 
 - name:
-    detail: Titansoft Pte Ltd
-    i18n: company_c
+    detail: 新加坡商鈦坦科技
+    i18n: Titansoft Pte Ltd
   desc:
-    detail: Design company internal web pages using .net core MVC and SQL Server
-    i18n: company_c_desc
+    detail: 使用 .NET Core MVC 和 SQL Server 設計公司內部網頁。
+    i18n: Design company internal web pages using .net core MVC and SQL Server
   date:
-    detail: Mar. 2021 - Jun. 2021
-    i18n: company_c_date
+    detail: 2021年3月 - 2021年6月
+    i18n: Mar. 2021 - Jun. 2021
   job:
-    detail: Intern
-    i18n: company_c_job
+    detail: 實習生
+    i18n: Intern
   icon: fa-gamepad
 
 - name:
-    detail: National Yunlin University of Science and Technology
-    i18n: company_d
+    detail: 國立雲林科技大學
+    i18n: National Yunlin University of Science and Technology
   desc:
-    detail: Graduated from bachelor's degree in information management, familiar with Python and Java development.
-    i18n: company_d_desc
+    detail: 畢業於資訊管理系，熟悉Python和Java開發。
+    i18n: Graduated from bachelor's degree in information management, familiar with Python and Java development.
   date:
-    detail: Sep. 2017 - Jun. 2021
-    i18n: company_d_date
+    detail: 2017年9月 - 2021年6月
+    i18n: Sep. 2017 - Jun. 2021
   job:
-    detail: Student
-    i18n: company_d_job
+    detail: 大學生
+    i18n: Student
   icon: fa-gamepad
