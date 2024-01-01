@@ -29,7 +29,14 @@ author:  # change following line to your infomation.
   skill_icon2:
     - name: icon-azure
     - name: icon-python
-  desc: Introduce myself will be here.  # Describe yourself.
+  desc: >
+    我擁有兩年多的Web開發工作經驗，期間深入參與Scrum開發方法，並以使用者角度思考功能設計。我的工作範疇包括程式碼架構的設計、功能實作，以及測試案例的制定，從test case design、unit test到end to end test的全方位覆蓋。部屬程式的部分，透過GitLab自動部屬到Kubernetes（K8S）或虛擬機器（VM）環境，以確保高效的部署流程。
+    <br><br>
+    在觀測程式的方面，涵蓋ELK（Elasticsearch, Logstash, Kibana）和Grafana等技術，用以監控產品的性能表現。這些工具不僅讓我能夠即時追蹤系統狀態，還有助於提前發現和解決潛在問題。
+    <br><br>
+    除了工作內容，在工作流程上也嘗試改良了許多例行工作，如人天計算機和CRM Log自動分類。
+    <br><br>
+    在工作之餘，我致力於網頁設計項目，包括公司形象網站和線下活動報名網站。這些專案展現了我對設計和創意的熱情，同時培養了我全方位的技能。
 
 # comment
 disqus:  # if you wanna comment feature, go to https://disqus.com/ to get your configuration; if not, comment following two lines.
