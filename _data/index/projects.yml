@@ -1,22 +1,50 @@
 # projects section data
 # If you don't have language feature(language.yml is empty), ignore "i18n" items
 # Suggest projects' img be located at '/static/assets/img/landing', and edit following img items.
-- name: Jalpc
-  i18n: jalpc
-  gh_user: jarrekk
-  repo: Jalpc
-  img: /static/assets/img/landing/jekyll.png
-  desc: This project is my project. I use Javascript to get repo's information all my repos have only one request.
+- name: 活動報名系統
+  i18n: 
+  gh_user: 
+  repo: 
+  img: /static/assets/img/landing/JPoker.png
+  desc: >
+    提供一個RWD的網站，改善客戶使用紙本記錄賽事資訊，讓玩家可以報名線上活動且能夠查看賽事紀錄等功能。
+  skill: Quasar, Vue.js, .net core web API, Azure, SQL Server
 
-- name: Python
-  i18n: cpython
-  gh_user: python
-  repo: cpython
-  img: /static/assets/img/landing/python.png
-  desc: This project is other's project. I use another request to get repo's information.
+- name: CRM Log自動分類
+  i18n: 
+  gh_user: 
+  repo: 
+  img: /static/assets/img/landing/crmlog.png
+  desc: >
+    透過機器學習，我訓練了一個模型，該模型能夠自動識別並分類 CRM Log 中的各種信息。這使得我們不再需要手動分類每條CRM Log，從而大大縮短了整個分類過程所需的時間。
+    <br>
+    這項自動分類系統的引入，不僅提高了效率，還減少了人為錯誤的可能性。同時，組員可以將更多時間和精力集中於更具價值的工作上，從而推動整個 B2C MAU KPI 的項目更進一步。
+  skill: Python, Machine Learning
 
-- name: Google
-  i18n: google
-  url: https://google.com
-  img: /static/assets/img/landing/google.png
-  desc: This is another project.
+- name: 公司形象網站
+  i18n: 
+  gh_user: 
+  repo: 
+  img: /static/assets/img/landing/company.png
+  desc: 提供一個形象網頁，讓公司可以曝光自家商品。
+  skill: Vue.js, html, css, javascript
+
+- name: 人天計算機
+  i18n: 
+  gh_user: 
+  repo: 
+  img: /static/assets/img/landing/caculator.png
+  desc: >
+    在每個 Sprint 的開始，我們會進行工時估算，以確保我們有充分的了解並能有效地規劃工作。為了簡化這個過程，我設計了一個人天計算機，提供了一個直觀的 UI 介面。
+    <br>
+    這個系統不僅提供了默認的會議時間，還讓您能夠輕鬆填寫您預期參與的會議。系統會自動計算工時，並將估算結果傳送到 Slack 上。這不僅省去了填寫者手動計算的麻煩，而且還能夠大大節省每個 Sprint 前花費在這方面的時間。
+  skill: Vue.js, Slack Webhooks
+
+- name: 二手書拍賣網站
+  i18n: 
+  gh_user: 
+  repo: 
+  img: /static/assets/img/landing/second.png
+  desc: >
+    本專案旨在開發一個專屬於中央大學學生的二手書買賣系統，提供一個方便、安全和高效的平台，讓中央的學生能夠輕鬆買賣二手書。透過這個系統，學生將能夠節省時間和金錢，同時促進學術共享和可持續性。
+  skill: .net core Web MVC, JQuery, SQL Server
